@@ -1,0 +1,63 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<script src="~/js/index.js" asp-append-version="true"></script>
+
+<form id="myform">
+
+    <input id="hfDtoJSON" type="hidden" value="@Model.XformerDtoJSON" />
+
+    <div>
+        <label for="hitController">Hit Controller</label>
+        <button id="hitController" class="">Do it</button>
+    </div>
+
+    <div>
+        <label for="myTextInput">Text Input</label>
+        <input type="text" id="myTextInput" value="I'm a text field" />
+    </div>
+
+    <div>
+        <label for="myTextarea">Textarea</label>
+        <textarea id="myTextarea" rows="8" placeholder="Enter your message here"></textarea>
+    </div>
+
+    <div>
+        <label for="mySelect">Select</label>
+        <select id="mySelect">
+            <optgroup label="Select something">
+                <option value=0>(SELECT)</option>
+                <option value=1>Option One</option>
+                <option value=2>Option Two</option>
+                <option value=3>Option Three</option>
+            </optgroup>
+        </select>
+    </div>
+
+    <div>
+        <label for="myCheckbox_1">Checkbox 1</label>
+        <input type="checkbox" id="myCheckbox_1" checked />
+
+        <label for="myCheckbox_2">Checkbox 2</label>
+        <input type="checkbox" id="myCheckbox_2" />
+    </div>
+
+    <div>
+        <label for="myRadio_1">Radio 1</label>
+        <input type="radio" id="myRadio_1" checked />
+
+        <label for="myRadio_2">Radio 2</label>
+        <input type="radio" id="myRadio_2" />
+    </div>
+
+    <div>
+        <label for="myFileInput">My File Input</label>
+        <input id="myFileInput" type="file" accept="image/*" multiple />
+    </div>
+
+
+</form>
+
