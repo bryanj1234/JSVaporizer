@@ -14,8 +14,6 @@ namespace RazorPagesJSVaporizer.Controllers
 
         public void OnGet()
         {
-
-            // I can't believe this works.
             MyCoolTransformerDto xformerDto = new MyCoolTransformerDto();
 
             xformerDto.MyTextInputValue = "THIS IS A TEST...";
