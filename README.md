@@ -7,7 +7,7 @@ It's an uncontrollable time thief,
 	so we should get it out of the way.
 ```
 
-This project is motivated by unifying front end and back end code for Razor Pages applications,
+This lightweight project is motivated by unifying front end and back end code for Razor Pages applications,
 without committing to Blazor.
 
 It's a simple application of
