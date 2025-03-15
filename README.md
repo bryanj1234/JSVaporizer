@@ -1,6 +1,6 @@
 I like the idea of writing more C# and less JavaScript.
 
-JSVaporizer is s lightweight project with the goal of unifying front end and back end code for Razor Pages applications,
+JSVaporizer is a lightweight project with the goal of unifying front end and back end code for Razor Pages applications,
 without committing to Blazor.
 
 It helps you to do these things:
