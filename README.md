@@ -1,13 +1,6 @@
-# JS Vaporizer
+I like the idea of writing more C#, and less JavaScript, in Razor Pages applications.
 
-```
-We must cut out the BS JS
-	which goofs up our day.  
-It's an uncontrollable time thief,
-	so we should get it out of the way.
-```
-
-A lightweight project motivated by unifying front end and back end code for Razor Pages applications,
+JSVaporizer is s lightweight project with the goal of unifying front end and back end code for Razor Pages applications,
 without committing to Blazor.
 
 It's a simple application of
