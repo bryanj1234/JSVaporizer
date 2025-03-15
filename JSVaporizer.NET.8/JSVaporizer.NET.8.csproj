@@ -15,7 +15,6 @@
     <Optimize>True</Optimize>
     <DebugType>portable</DebugType>
   </PropertyGroup>
-	
   <Import Project="..\MyTransformerLibrary\MyTransformerLibrary.projitems" Label="Shared" />
 
 
